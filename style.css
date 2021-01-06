@@ -14,7 +14,7 @@
     cursor: pointer;
   }
   
-  #shopping-list-item {
+  #todo-list-item {
     width: 250px;
   }
   
@@ -23,18 +23,18 @@
     margin: 0 auto;
   }
   
-  .shopping-list {
+  .todo-list {
     list-style: none;
     padding-left: 0;
   }
   
-  .shopping-list > li {
+  .todo-list > li {
     margin-bottom: 20px;
     border: 1px solid grey;
     padding: 20px;
   }
   
-  .shopping-item {
+  .todo-item {
     display: block;
     color: grey;
     font-style: italic;
@@ -42,7 +42,7 @@
     margin-bottom: 15px;
   }
   
-  .shopping-item__checked {
+  .todo-item__checked {
     text-decoration: line-through;
   }
   
